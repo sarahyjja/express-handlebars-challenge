@@ -8,10 +8,10 @@
   },
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.3",
+    "express": "^4.17.1",
     "express-handlebars": "^3.0.0"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.19.1"
   }
 }
