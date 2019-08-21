@@ -25,4 +25,10 @@
 
 
 <h2>Challenge 5 - Display a list of users who are logged in or a label 'Log In' if the user is not logged in.</h2>
-{{! Edit below this line}}
+{{#each users}}
+{{#if loggedIn}}
+<li>{{name}}</li>
+{{else}}
+<li><label>Log In</label></li>
+{{/if}}
+{{/each}}
