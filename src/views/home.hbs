@@ -11,7 +11,11 @@
 
 
 <h2>Challenge 3 - Display a list of users who are admins</h2>
-{{! Edit below this line}}
+{{#each users}}
+{{#if admin}}
+<li>{{name}}</li>
+{{/if}}
+{{/each}}
 
 
 <h2>Challenge 4 - Display a list of users along with their age</h2>
